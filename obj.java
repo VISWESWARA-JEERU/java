@@ -11,12 +11,12 @@ class B extends A{
         System.out.println("in B");
     }
 }
-class obj{
+public class obj{
    
     public static void main(String[] args) {
-        A ob;
+        B ob;
         ob = new B();
-        
+        ob.show();
         ob.print();
     }
 
