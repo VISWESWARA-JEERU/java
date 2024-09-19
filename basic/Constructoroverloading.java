@@ -1,6 +1,6 @@
 
 
-public class Co {
+public class Constructoroverloading{
  public static void main(String[] args) { 
    a obj =new a(535);
    a obj1= new a();

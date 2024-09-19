@@ -1,3 +1,6 @@
+
+import java.lang.classfile.Superclass;
+
 class Mobiles {
      String color = "blue";
     void ram(){
@@ -37,6 +40,7 @@ public class Testinheritence{
         // m.ram(); 
         features fy = new features();
         fy.special();
+        fy.ram();
     }
 }
 
