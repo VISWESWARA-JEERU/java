@@ -16,6 +16,7 @@ class Dog extends Animal{
         super();
         System.out.println("the double of number is in DOG CONSTRUCTOR of int type :"+(x+x));
     }
+    @Override
     void eat(){
         System.out.println("\n Dog is eating.... (subclass)");
         System.out.println(10+10);
@@ -31,7 +32,7 @@ class Dog extends Animal{
     }
       
 }
-class Keysuper{
+public class Keysuper{
     static int x=50;
     public static void main(String[] args ){
       Dog d = new Dog(x);
